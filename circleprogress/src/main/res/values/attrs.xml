@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgress">
+        <!--上层圆的颜色-->
+        <attr name="upperColor1" format="color|reference" />
+        <attr name="upperColor2" format="color|reference" />
+        <attr name="upperColor3" format="color|reference" />
+        <!--上层圆的线宽-->
+        <attr name="upperLineWidth" format="dimension|reference" />
+
+        <!--下层圆的颜色-->
+        <attr name="lowerColor" format="color|reference" />
+        <!--下层圆的线宽-->
+        <attr name="lowerLineWidth" format="dimension|reference" />
+
+        <!--阴影线宽-->
+        <attr name="shadowLineWidth" format="dimension|reference"/>
+        <!--阴影颜色-->
+        <attr name="shadowColor" format="color|reference"/>
+
+        <!--开始绘制角度-->
+        <attr name="startAngle" format="float" />
+        <!--结束绘制角度-->
+        <attr name="sweepAngle" format="float" />
+        <!--数值大小(默认最大值为10000)-->
+        <attr name="value" format="float|reference" />
+    </declare-styleable>
+</resources>
