@@ -204,15 +204,18 @@ public class CircleProgress extends View {
     // 设置上层线宽
     public void setUpperLineWidth(int width) {
         mUpperWidth = width;
+        invalidate();
     }
 
     // 设置背景线宽
     public void setLowerLineWidth(int width) {
         mLowerWidth = width;
+        invalidate();
     }
 
-    // 设置背景线宽
+    // 设置阴影线宽
     public void setShadowLineWidth(int width) {
         mShadowWidth = width;
+        invalidate();
     }
 }
