@@ -4,9 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.SeekBar;
 
-import cn.showmac.circleprogress.CircleProgress;
+import cn.konstant.circleprogress.CircleProgress;
 
-public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBarChangeListener{
+public class CircleProgressActivity extends AppCompatActivity implements SeekBar.OnSeekBarChangeListener{
 
     CircleProgress mCircleProgress;
     SeekBar mSeekBar;

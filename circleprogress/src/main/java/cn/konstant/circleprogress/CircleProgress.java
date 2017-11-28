@@ -1,4 +1,4 @@
-package cn.showmac.circleprogress;
+package cn.konstant.circleprogress;
 
 import android.content.Context;
 import android.content.res.TypedArray;

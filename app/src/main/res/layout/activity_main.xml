@@ -11,7 +11,7 @@
         android:layout_height="330dp"
         android:orientation="vertical">
 
-        <cn.showmac.circleprogress.CircleProgress
+        <cn.konstant.circleprogress.CircleProgress
             android:id="@+id/progress"
             app:shadowColor="#30000000"
             app:shadowLineWidth="30dp"

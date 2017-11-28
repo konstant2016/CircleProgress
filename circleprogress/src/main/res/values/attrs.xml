@@ -25,4 +25,29 @@
         <!--数值大小(默认最大值为10000)-->
         <attr name="value" format="float|reference" />
     </declare-styleable>
+
+
+    <!-- 带分割线的圆环进度条 -->
+    <declare-styleable name="ScaleProgress">
+        <!--阴影颜色-->
+        <attr name="scaleShadowColor" format="color|reference" />
+        <!--未选中的刻度颜色-->
+        <attr name="normalColor" format="color|reference" />
+        <!--已选中的刻度开始颜色-->
+        <attr name="scaleStartColor" format="color|reference" />
+        <!--已选中的刻度结束颜色-->
+        <attr name="scaleStopColor" format="color|reference" />
+        <!--刻度线的宽度-->
+        <attr name="scaleWhdth" format="dimension|reference" />
+        <!--刻度线的长度-->
+        <attr name="scaleHeight" format="dimension|reference" />
+        <!--刻度线的数量-->
+        <attr name="scaleNumber" format="integer|reference" />
+        <!--阴影的宽度-->
+        <attr name="shadowWidth" format="dimension|reference" />
+        <!--动画持续时间-->
+        <attr name="animDuration" format="integer|reference" />
+
+    </declare-styleable>
+
 </resources>

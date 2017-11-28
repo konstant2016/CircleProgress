@@ -1,4 +1,4 @@
-package cn.showmac.circleprogress;
+package cn.konstant.circleprogress;
 
 import org.junit.Test;
 
