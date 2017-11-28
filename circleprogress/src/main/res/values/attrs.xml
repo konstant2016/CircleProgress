@@ -47,6 +47,8 @@
         <attr name="shadowWidth" format="dimension|reference" />
         <!--动画持续时间-->
         <attr name="animDuration" format="integer|reference" />
+        <!--圆环进度-->
+        <attr name="progress" format="integer|reference" />
 
     </declare-styleable>
 

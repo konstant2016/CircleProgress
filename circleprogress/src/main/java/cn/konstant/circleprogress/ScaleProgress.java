@@ -66,6 +66,7 @@ public class ScaleProgress extends View {
         mScaleHeight = typedArray.getDimension(R.styleable.ScaleProgress_scaleHeight, 40);
         mAnimDuration = typedArray.getInteger(R.styleable.ScaleProgress_animDuration, 1000);
         mScaleNum = typedArray.getInteger(R.styleable.ScaleProgress_scaleNumber, 100);
+        mProgress = typedArray.getInteger(R.styleable.ScaleProgress_progress,50);
 
         typedArray.recycle();
 
