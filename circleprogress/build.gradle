@@ -62,7 +62,7 @@ task javadoc(type: Javadoc) {
     options.charSet 'UTF-8'
     options.author true
     options.version true
-    options.links "https://github.com/konstant2016/CircleProgress/docs/javadoc"
+    options.links ""
     failOnError false
 }
 
@@ -73,7 +73,7 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
 }
 //拷贝javadoc文件
 task copyDoc(type: Copy) {
-    from "${buildDir}/docs/"
+    from "build/docs/"
     into "docs"
 }
 
@@ -101,8 +101,8 @@ install {
                 developers {
                     developer {
                         id 'konstant'
-                        name 'lvka'
-                        email '792509082@qq.com'
+                        name 'Alan Konstant'
+                        email 'lvka2015@hotmail.com'
                     }
                 }
                 scm {
@@ -123,7 +123,6 @@ bintray {
     key = properties.getProperty("bintray.apikey")   //读取 local.properties 文件里面的 bintray.apikey
     configurations = ['archives']
     pkg {
-        repo = "maven"
         name = libName    //发布到JCenter上的项目名字，必须填写
         desc = '环形进度条/带刻度的环形进度条'    //项目描述
         websiteUrl = siteUrl
