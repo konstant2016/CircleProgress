@@ -8,7 +8,6 @@ import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.graphics.SweepGradient;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -67,7 +66,7 @@ public class CircleProgress extends View {
     private SweepGradient mSweepGradient;
 
 
-    public CircleProgress(Context context, @Nullable AttributeSet attrs) {
+    public CircleProgress(Context context,  AttributeSet attrs) {
         super(context, attrs);
         initViews(context, attrs);
         initElements();
